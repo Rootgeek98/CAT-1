@@ -32,7 +32,7 @@ public class Main extends Application {
 
         // Header Text: null
         alert.setHeaderText(null);
-        alert.setContentText("Thank you for registering for Pre-Online Course Registration Application!");
+        alert.setContentText("Thank you for registering for Pre-Online Course Registration Application");
 
         alert.showAndWait();
     }
@@ -44,7 +44,7 @@ public class Main extends Application {
         root.setSpacing(10);
 
         // Add a title to the stage
-        stage.setTitle("Course Registration");
+        stage.setTitle("Pre-Online Course Registration");
 
         // Add an icon to the stage
         stage.getIcons().add(new Image("file:logo.png"));
