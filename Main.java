@@ -25,7 +25,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    // Show a Information Alert without Header Text
+    // Show an Information Alert without Header Text
     private void showAlertWithoutHeaderText() {
         Alert alert = new Alert(AlertType.INFORMATION);
         alert.setTitle("Notification");
